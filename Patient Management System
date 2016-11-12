@@ -41,7 +41,7 @@ elif select_doctor == "2":
 
         print("Doctor B \n a. 10:30AM-11:30AM\n b. 12:30PM-1:30PM \n c. 2:30PM-3:30PM")
 
-        your_time = input("Favouralbe time")
+        your_time = input("Favourable time")
         if your_time == "a":
             print("a. 10:30AM-11:30AM")
         elif your_time == "b":
