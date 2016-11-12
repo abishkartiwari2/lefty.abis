@@ -92,12 +92,12 @@ else:
 print("For cash Enter Y")
 print("For credit Enter C")
 payment = input("finish the payment")
-if payment=="y":
+if payment=="Y":
     print("payment done by cash")
     recbill = input("Please enter the receipt for the bill")
     print(recbill)
     print= input("Thank you")
-elif payment=="c":
+elif payment=="C":
      print("payment done by credit")
      crebill = input("Please enter the credit card number")
      print(crebill)
