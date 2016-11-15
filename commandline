@@ -1,0 +1,182 @@
+# Login process for a patient
+
+print("LOGIN")
+print("Register User")
+newiest = input("\n a.Create a new account\n b.Continue with an old account")
+if newiest == "a":
+    print("Create a new account")
+else:
+    print("Continue with an old account")
+
+# Old patient
+patientName = input("Enter the patient Name")
+print(patientName)
+patientId = input("Enter the patient ID")
+print(patientId)
+# Name list of doctors
+print("List of available Doctors")
+print("1. Dr.Manju")
+print("2. Dr.Abishkar")
+print("3. Dr.Erick")
+
+# This is for Dr.Manju
+
+choose_doctor = input("Select the doctor")
+
+if choose_doctor == "1":
+    print("When you want to have an appointment with Dr.Manju?")
+    print("\n a. At morning\n b. At afternoon \n c. At evening")
+    available_time = input("Select your time")
+    if available_time == "a":
+        print("a. At morning")
+    elif available_time == "b":
+            print("b. At afternoon")
+    elif available_time == "c":
+            print("c. Evening")
+    take_appointment = input("For taking appointment press 1 ")
+    if take_appointment == "1":
+        print("Appointment done with doctor")
+        print("\n a. Patient checked\n b. Patient not checked")
+        checked_done = input("Patient checked or not?")
+        print(checked_done)
+        if checked_done == "a":
+            print("Patient checked")
+        else:
+            print("Patient not checked")
+            print("Go for checking")
+    elif take_appointment == "2":
+        print("Appointment done with doctor")
+        print("\n a. Patient checked\n b. Patient Not checked")
+        checked_done = input("Patient checked or not?")
+        print(checked_done)
+        if checked_done == "a":
+            print("Patient checked")
+        else:
+            print("Patient not checked")
+            print("Go for checking")
+    elif take_appointment == "3":
+        print("Appointment done with doctor")
+        print("\n a. Patient checked\n b. Patient Not checked")
+        checked_done = input("Patient checked or not?")
+        print(checked_done)
+        if checked_done == "a":
+            print("Patient checked")
+        else:
+            print("Patient not checked")
+            print("Go for checking")
+
+
+# This is for Dr.Abishkar
+
+elif choose_doctor == "2":
+    print("When you want to have an appointment with Dr.Abishkar?")
+    print("\n a. Morning\n b. Afternoon \n c. Evening")
+    available_time = input("Select your time")
+    if available_time == "a":
+        print("a. At morning")
+    elif available_time == "b":
+        print("b. At afternoon")
+    elif available_time == "c":
+        print("c. Evening")
+    take_appointment = input("For taking appointment press 1 ")
+    if take_appointment == "1":
+        print("Appointment done with doctor")
+        print("\n a. Patient checked\n b. Patient not checked")
+        checked_done = input("Patient checked or not?")
+        print(checked_done)
+        if checked_done == "a":
+            print("Patient checked")
+        else:
+            print("Patient not checked")
+            print("Go for checking")
+    elif take_appointment == "2":
+        print("Appointment done with doctor")
+        print("\n a. Patient checked\n b. Patient Not checked")
+        checked_done = input("Patient checked or not?")
+        print(checked_done)
+        if checked_done == "a":
+            print("Patient checked")
+        else:
+            print("Patient not checked")
+            print("Go for checking")
+    elif take_appointment == "3":
+        print("Appointment done with doctor")
+        print("\n a. Patient checked\n b. Patient Not checked")
+        checked_done = input("Patient checked or not?")
+        print(checked_done)
+        if checked_done == "a":
+            print("Patient checked")
+        else:
+            print("Patient not checked")
+            print("Go for checking")
+
+
+
+            # This is for Dr.Erick
+
+elif choose_doctor == "3":
+    print("When you want to have an appointment with Dr.Erick?")
+    print("\n a. Morning\n b. Afternoon \n c. Evening")
+    available_time = input("Select your time")
+    if available_time == "a":
+        print("a. At morning")
+    elif available_time == "b":
+        print("b. At afternoon")
+    elif available_time == "c":
+        print("c. Evening")
+    take_appointment = input("For taking appointment press 1 ")
+    if take_appointment == "1":
+        print("Appointment done with doctor")
+        print("\n a. Patient checked\n b. Patient not checked")
+        checked_done = input("Patient checked or not?")
+        print(checked_done)
+        if checked_done == "a":
+            print("Patient checked")
+        else:
+            print("Patient not checked")
+            print("Go for checking")
+    elif take_appointment == "2":
+        print("Appointment done with doctor")
+        print("\n a. Patient checked\n b. Patient Not checked")
+        checked_done = input("Patient checked or not?")
+        print(checked_done)
+        if checked_done == "a":
+            print("Patient checked")
+        else:
+            print("Patient not checked")
+            print("Go for checking")
+    elif take_appointment == "3":
+        print("Appointment done with doctor")
+        print("\n a. Patient checked\n b. Patient Not checked")
+        checked_done = input("Patient checked or not?")
+        print(checked_done)
+        if checked_done == "a":
+            print("Patient checked")
+        else:
+            print("Patient not checked")
+            print("Go for checking")
+
+else:
+    print("Doctor not available")
+# This is payment process
+print("1. Payment Done")
+print("2. Payment Not Done")
+paymoney = input("Did you get the bill(Y/N)")
+if paymoney == "Y":
+    print("For cash Enter A")
+    print("For credit Enter B")
+    payment = input("finish the payment")
+    if payment == "A":
+        print("payment done by cash")
+        recbill = input("Please enter the receipt for the bill")
+        print(recbill)
+        print = input("Thank you")
+    elif payment == "B":
+        print("payment done by credit")
+        crebill = input("Please enter the credit card number")
+        print(crebill)
+        print("Thank you")
+
+else:
+    payment_notdone = input("Go for the payment and logout")
+    print("Thank You")
