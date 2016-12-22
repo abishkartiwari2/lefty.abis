@@ -49,7 +49,7 @@ class MainPart():
             self.address = input("YOUR E-MAIL ADDRESS:")
             if self.address == "admin":
                 self.password = input("YOUR PASSWORD:")
-                if self.password == "admin1":
+                if self.password == "admin":
                     for line in file:
                         (address,password)= line.split()
                         if (password == self.password):
@@ -84,9 +84,9 @@ class MainPart():
                 else:
                     print("Enter valid password")
 
-            elif self.address == "admin":
+            elif self.address == "admin1":
                 self.password = input("YOUR PASSWORD:")
-                if self.password == "admin2":
+                if self.password == "admin1":
                     for line in file:
                         (address, password) = line.split()
                         if (address == self.address):
@@ -109,9 +109,9 @@ class MainPart():
                 else:
                     print("Enter valid password")
 
-            elif self.address == "admin":
+            elif self.address == "admin2":
                 self.password = input("YOUR PASSWORD")
-                if self.password == "admin3":
+                if self.password == "admin2":
                     for line in file:
                         (address, password) = line.split()
                         if (address == self.address):
